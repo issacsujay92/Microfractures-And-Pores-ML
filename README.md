@@ -6,20 +6,20 @@ The code developed in this study is provided in this repository with no restrict
 
 **Dataset**
 The dataset of 18 petrographic thin section scans is provided in this repository and also contains no restrictions on its usage. The folder for each of the scans contains the following images;
-1. The raw scan
-2. The cropped raw scan
-3. The processed scan
-4. The HSB colorspace thresholded image
-5. The HSB colorspace thresholded image with a 30 px closing operation
-6. The HSB colorspace thresholded image with a 1000 px opening operation
-7. The LAB colorspace thresholded image
-8. The LAB colorspace thresholded image with a 30 px closing operation
-9. The LAB colorspace thresholded image with a 1000 px opening operation
-10. The combined HSB and LAB image (binary)
-11. The combined HSB and LAB image (as a color composite)
-12. The artifact binary mask (to remove damaged zones)
-13. The overall label map
-14. The sampling label map (only containing the sampled objects)
+   1. The raw scan
+   2. The cropped raw scan
+   3. The processed scan
+   4. The HSB colorspace thresholded image
+   5. The HSB colorspace thresholded image with a 30 px closing operation
+   6. The HSB colorspace thresholded image with a 1000 px opening operation
+   7. The LAB colorspace thresholded image
+   8. The LAB colorspace thresholded image with a 30 px closing operation
+   9. The LAB colorspace thresholded image with a 1000 px opening operation
+   10. The combined HSB and LAB image (binary)
+   11. The combined HSB and LAB image (as a color composite)
+   12. The artifact binary mask (to remove damaged zones)
+   13. The overall label map
+   14. The sampling label map (only containing the sampled objects)
 
 The processing of the images was performed in Fiji (Schindelin et al., 2012) using the following plugins;
 MorphoLibJ (Legland et al., 2016)
@@ -54,15 +54,15 @@ MorphoLibJ (Legland et al., 2016)
 
 ## How to Use
 
-1. **Setup**: Ensure you have R and RStudio (or your preferred R environment) installed.
-2. **Library Installation**: Before running the code, install all the libraries listed above using `install.packages("library_name")` in your R console.
-3. **Download and Open**: Download the `.rmd` file and open it in RStudio.
-4. **Run**: Execute the code chunks step-by-step, ensuring you understand the purpose of each section. Some chunks may have dependencies on previous chunks, so it's important to execute them in order.
-5. **Output**: The expected output format is an `html_document`. Once you knit the document, you should see the results in an HTML format. You can alternately change the output to your preferred types such as MS Word, pdf, etc.
-6. **Troubleshooting**: If you face any issues or errors, ensure that:
-   - All libraries are correctly installed.
-   - You're running the code chunks in the correct order.
-   - Your R environment is up to date.
+   1. **Setup**: Ensure you have R and RStudio (or your preferred R environment) installed.
+   2. **Library Installation**: Before running the code, install all the libraries listed above using `install.packages("library_name")` in your R console.
+   3. **Download and Open**: Download the `.rmd` file and open it in RStudio.
+   4. **Run**: Execute the code chunks step-by-step, ensuring you understand the purpose of each section. Some chunks may have dependencies on previous chunks, so it's important to execute them in order.
+   5. **Output**: The expected output format is an `html_document`. Once you knit the document, you should see the results in an HTML format. You can alternately change the output to your preferred types such as MS Word, pdf, etc.
+   6. **Troubleshooting**: If you face any issues or errors, ensure that:
+      - All libraries are correctly installed.
+      - You're running the code chunks in the correct order.
+      - Your R environment is up to date.
 
 ---
 
