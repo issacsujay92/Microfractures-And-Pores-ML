@@ -17,6 +17,9 @@ The dataset of 18 petrographic thin section scans is provided in this repository
 9. The LAB colorspace thresholded image with a 1000 px opening operation
 10. The combined HSB and LAB image (binary)
 11. The combined HSB and LAB image (as a color composite)
+12. The artifact binary mask (to remove damaged zones)
+13. The overall label map
+14. The sampling label map (only containing the sampled objects)
 
 The processing of the images was performed in Fiji (Schindelin et al., 2012) using the following plugins;
 MorphoLibJ (Legland et al., 2016)
