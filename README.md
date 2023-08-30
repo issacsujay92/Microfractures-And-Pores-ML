@@ -69,4 +69,5 @@ MorphoLibJ (Legland et al., 2016)
 
 ## References
 Legland, David, Ignacio Arganda-Carreras, and Philippe Andrey. "MorphoLibJ: integrated library and plugins for mathematical morphology with ImageJ." Bioinformatics 32, no. 22 (2016): 3532-3534.
+
 Schindelin, Johannes, Ignacio Arganda-Carreras, Erwin Frise, Verena Kaynig, Mark Longair, Tobias Pietzsch, Stephan Preibisch et al. "Fiji: an open-source platform for biological-image analysis." Nature methods 9, no. 7 (2012): 676-682.
