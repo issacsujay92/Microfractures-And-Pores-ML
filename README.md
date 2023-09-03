@@ -1,28 +1,7 @@
 # Microfractures-And-Pores-ML
 
-## Overview of the repository
-**Code**
-The code developed in this study is provided in this repository with no restrictions on its usage. We only ask that you cite the study if it was useful in any capacity. The instructions on using the code are provided in the following section.
-
-**Dataset**
-The dataset of 18 petrographic thin section scans is provided in this repository and also contains no restrictions on its usage. The folder for each of the scans contains the following images;
-   1. The raw scan
-   2. The cropped raw scan
-   3. The processed scan
-   4. The HSB colorspace thresholded image
-   5. The HSB colorspace thresholded image with a 30 px closing operation
-   6. The HSB colorspace thresholded image with a 1000 px opening operation
-   7. The LAB colorspace thresholded image
-   8. The LAB colorspace thresholded image with a 30 px closing operation
-   9. The LAB colorspace thresholded image with a 1000 px opening operation
-   10. The combined HSB and LAB image (binary)
-   11. The combined HSB and LAB image (as a color composite)
-   12. The artifact binary mask (to remove damaged zones)
-   13. The overall label map
-   14. The sampling label map (only containing the sampled objects)
-
-The processing of the images was performed in Fiji (Schindelin et al., 2012) using the following plugins;
-MorphoLibJ (Legland et al., 2016)
+## Overview of the code
+The code is written in RMarkdown with each of the steps of the supervised ML pipeline documented within the document. The code developed in this study has no restrictions on its usage. We only ask that you cite the study if it was useful in any capacity. The instructions on using the code are provided in the following section.
 
 ## Code
 ### Libraries Used
@@ -67,7 +46,3 @@ MorphoLibJ (Legland et al., 2016)
 ---
 
 
-## References
-Legland, David, Ignacio Arganda-Carreras, and Philippe Andrey. "MorphoLibJ: integrated library and plugins for mathematical morphology with ImageJ." Bioinformatics 32, no. 22 (2016): 3532-3534.
-
-Schindelin, Johannes, Ignacio Arganda-Carreras, Erwin Frise, Verena Kaynig, Mark Longair, Tobias Pietzsch, Stephan Preibisch et al. "Fiji: an open-source platform for biological-image analysis." Nature methods 9, no. 7 (2012): 676-682.
