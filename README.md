@@ -1,9 +1,16 @@
 # Microfractures-And-Pores-ML
 
-## Overview of the code
-The code is written in RMarkdown with each of the steps of the supervised ML pipeline documented within the document. The code developed in this study has no restrictions on its usage. We only ask that you cite the study if it was useful in any capacity. The instructions on using the code are provided in the following section.
+## Overview of the codes in the repository
+This study was performed in three programming languages: ImageJ macro language (based on Javascript), Python, and R
+### ImageJ
+ImageJ was used for image processing and segmentation. The macro used for this pipeline is image_pipeline.ijm
+The macro can be run as is in Fiji (or ImageJ), and will prompt the user for the image path. For each processing and segmentation step, it prompts the user for manual tuning, so it can be applied to any image type.
 
-## Code
+### Python
+Python was used for connected components analysis (labelling), feature extraction, visualization of the random sampling, and visualization of the predicted classes. In addition, the ellipses and maximum and minimum axes visualized in Fig. 8 of the study was made using this language. The codes for each of the aforementioned tasks are provided as separate items in this repository.
+
+### R
+The machine learning code is written in RMarkdown with each of the steps of the supervised ML pipeline documented within the document. The code developed in this study has no restrictions on its usage. We only ask that you cite the study if it was useful in any capacity. The instructions on using the code are provided in the following section.
 ### Libraries Used
 
 1. tidyverse
